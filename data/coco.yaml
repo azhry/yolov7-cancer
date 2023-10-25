@@ -1,0 +1,14 @@
+# COCO 2017 dataset http://cocodataset.org
+
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./data_yolo/images/train  # 118287 images
+val: ./data_yolo/images/test  # 5000 images
+test: ./data_yolo/images/test  # 5000 images
+
+# number of classes
+nc: 2
+
+# class names
+names: [ 'columnar', 'lesi' ]
